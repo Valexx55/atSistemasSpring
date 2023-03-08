@@ -40,7 +40,6 @@ public class RxAlumnoServiceImp implements RxAlumnoService {
 	                	alumno_leido.setApellido(alumno.getApellido());
 	                	alumno_leido.setEdad(alumno.getEdad());
 	                	alumno_leido.setEmail(alumno.getEmail());
-	                    //dbUser.setSalary(user.getSalary());
 	                    return rxAlumnoRepository.save(alumno_leido);
 	                });
 	    }
